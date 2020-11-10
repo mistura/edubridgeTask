@@ -16,7 +16,7 @@
 .navbar{
     height: 70px;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
 }
 #logo{
     width: 250px;
@@ -34,11 +34,11 @@
     margin-left: 8%;
     font-size: large;
     text-decoration: none;
-    color: #dcdaed;
+    color: black;
 
 }
 .navbar ul a:hover{
-    color:#f2994a ;
+    color:#cf6f1b ;
 }
 #btn{
     width: 150px;
@@ -50,6 +50,29 @@
 }
 #btn:hover{
     color: white;
+}
+#ser{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+#search{
+    width: 40%;
+    height: 51px;
+    margin-top: 25px;
+    margin-left: 30%;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.icon1{
+    width: 55px;
+    height: 50px;
+    margin-top: 26px;
+}
+.icon1 img{
+    width: 100%;
+    height: 100%;
 }
 #grand{
     text-align: center;
@@ -134,7 +157,7 @@ margin-top: 15px;
     width: 100%;
     height: 100%;
 }
-input{
+#ty{
     margin-left: 30%;
     width: 40%;
     margin-top: 20px;
@@ -174,7 +197,7 @@ input{
     width: 180px;
     height: 100px;
     position: absolute;
-    top: 2700px;
+    top: 2800px;
     margin-left: 7%;
 }#logo1 p{
     color: white;
@@ -186,11 +209,13 @@ input{
     text-decoration: none;
     color:white;
 }
+#footer ul a:hover{
+    color:#f2994a;
+}
 #footer ul{
     width: 400px;
     margin-left: 50%;
-    margin-top: 30px;
     position: absolute;
-    top: 2700px;
+    top: 2830px;
 
 }
