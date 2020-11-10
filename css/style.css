@@ -1,0 +1,144 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+.banner{
+    height: 550px; 
+    background-size: cover;
+    background-image: url("../images/banna5.webp");
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#logo{
+    width: 250px;
+    height: 70px;
+    margin-left: 7%;
+}
+.navbar ul{
+    width: 35%;
+    margin-left: 15%;
+    margin-top: 13px;
+    list-style: none;
+
+}
+.navbar ul a{
+    margin-left: 8%;
+    font-size: large;
+    text-decoration: none;
+    color: #dcdaed;
+
+}
+#btn{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #f2994a;
+}
+#grand{
+    text-align: center;
+    font-size: 60px;
+    color: chocolate;
+    margin-top: 7%;
+}
+#display{
+    padding: 3%;
+}
+.box{
+    margin: auto;
+    margin: 3%;
+    height:450px ;
+}
+.box img{
+    width: 100%;
+    height: 70%;
+}
+.box p{
+    text-align: center ;
+    font-size: 25px;
+    margin: 5%;
+
+}
+.arrow{
+    width: 80px;
+    height: 80px;
+    margin-top: 14%;
+    border: solid 3px  #dcdaed;
+    border-radius: 100%;
+}
+.arrow img{
+    width: 100%;
+    height: 100%;
+}
+#services{
+    text-align: center;
+    font-size: 60px;
+    color: chocolate;
+}
+.box2{
+    height: 450px;
+    margin: 10px;
+    background-color:  rgb(228, 73, 17);
+    text-align: center;
+    clip-path: polygon(28% 3%, 72% 3%, 98% 50%, 70% 98%, 28% 97%, 0% 50%);
+}
+.box2 p{
+    margin: 20px;
+}
+.box2 h3{
+margin-top: 15px;
+}
+.box2-contaner{
+    padding: 3%;
+}
+#icon{
+    width: 120px;
+    height: 110px;
+    margin: auto;
+    margin-top: 60px;
+}
+#icon img{
+    width: 100%;
+    height: 100%;
+}
+input{
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 20px;
+    height: 70px;
+    border-radius: 20px;
+    border: solid 2px rgb(77, 75, 75);
+}
+#txtarea{
+    margin-left: 30%;
+    width: 40%;
+    height: 200px;
+    border-radius: 20px;
+    border: solid 2px rgb(77, 75, 75);
+}
+#contact{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    color: chocolate;
+}
+#btn2{
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:  rgb(228, 73, 17); 
+}
