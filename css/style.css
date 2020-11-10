@@ -8,7 +8,7 @@
     height: 100%;
     font-family: 'DM Sans', sans-serif;
 }
-.banner{
+#banner{
     height: 550px; 
     background-size: cover;
     background-image: url("../images/banna5.webp");
