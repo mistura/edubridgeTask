@@ -69,6 +69,11 @@
     width: 55px;
     height: 50px;
     margin-top: 26px;
+    cursor: pointer;
+
+}
+.icon1:hover{
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .icon1 img{
     width: 100%;
