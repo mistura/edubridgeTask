@@ -9,7 +9,7 @@
     font-family: 'DM Sans', sans-serif;
 }
 #banner{
-    height: 550px; 
+    height: 650px; 
     background-size: cover;
     background-image: url("../images/banna5.webp");
 }
@@ -209,7 +209,7 @@ margin-top: 15px;
     width: 180px;
     height: 100px;
     position: absolute;
-    top: 2800px;
+    top: 2900px;
     margin-left: 7%;
 }#logo1 p{
     color: white;
@@ -231,6 +231,6 @@ margin-top: 15px;
     width: 400px;
     margin-left: 50%;
     position: absolute;
-    top: 2830px;
+    top: 2930px;
 
 }
